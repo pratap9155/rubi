@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("11851604"))
+API_HASH = getenv("54664a25061099eb3bdf0ae5a28cea62")
 
-EVAL = list(map(int, getenv("EVAL", "7716352578 7091230649").split()))
+EVAL = list(map(int, getenv("EVAL", "1452370643 1073815732").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
@@ -24,13 +24,13 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://venommusic:venom112@cluster0.tvf0tqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001310585063))
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7403621976))
+OWNER_ID = int(getenv("OWNER_ID", 1452370643))
 # ---------------------------------------------------------------
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
@@ -45,10 +45,10 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # -----------------------------------------
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots7ed2dc') # youtube song api ke
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots0688b3') # youtube song api ke
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARISHFA_UPDATE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+PaEtaAu9DI9mYzc9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Pubglovers_Shayri_lovers")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+2HpAd1kBDRo1NzY1")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
@@ -64,7 +64,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQC011QAh6oaGFFmiIMFudLyVg20RVXXDtUr5wlx-BY-Np16bdzzgva_5BZ_Ct59jf5L-LZvRmh8Azw04sTX29Jn1wE1YYpbZG86liwrzInPQONCwCBH7B03Da_u8eWmZQx0fpausZ1S_O-LrEgYw6LRxdl_kZRCA-iXmDroDbn0tuPwsafXM5dI_KSX4dT4LNU-XbUvaf8-YTvZEcP4pvTPngjuEX-tZF6eIO38YP8ZQIN0xJ_4XGaP2mAVp_SCj6jkwJvHSkfdb1nqo2jIMnksuN7GcsSeZ21bU2p3aRbaezfKYf_uJlUwkEK3c07-LWaBooka00f8rZgCu-FWfr5GZ6VskAAAAABwLUBIAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
