@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "54664a25061099eb3bdf0ae5a28cea62")
 
 EVAL = list(map(int, getenv("EVAL", "1452370643 1073815732").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "5692619595:AAGZd0c_HBnN963yvbIk7SMuWxaow99UBbw")
+BOT_TOKEN = getenv("BOT_TOKEN", "7214950972:AAFpMkZYMIKFQrmtg2hU_c5h8FNJWTdv3b0")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
 # --------------------------------------------------------
@@ -47,8 +47,8 @@ GIT_TOKEN = getenv(
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", 'NxGBNexGenBots0688b3') # youtube song api ke
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Pubglovers_Shayri_lovers")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+2HpAd1kBDRo1NzY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/venompratap")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/venompratapchat")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
