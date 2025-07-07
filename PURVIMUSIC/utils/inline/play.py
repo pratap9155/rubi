@@ -68,8 +68,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
          [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/HarshitSharma361"),
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+2HpAd1kBDRo1NzY1")
+             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/Venom_pratap"),
+             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/Venompratap")
          ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
@@ -88,8 +88,8 @@ def stream_markup(_, chat_id):
            # InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          #],
         [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/HarshitSharma361"),
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+2HpAd1kBDRo1NzY1")
+             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/Venom_pratap"),
+             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/Venompratap")
          ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
