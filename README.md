@@ -41,7 +41,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/Im-NotCoder/NhiPta && cd NhiPta
+   git clone https://github.com/pratap9155/Allice && cd Allice
    ```
 6. **Install Requirements**
    ```bash
