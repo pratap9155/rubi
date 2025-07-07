@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "11851604"))
-API_HASH = getenv("API_HASH", "54664a25061099eb3bdf0ae5a28cea62")
+API_ID = int(getenv("API_ID", "26788076"))
+API_HASH = getenv("API_HASH", "5f6d551ff94c49365428978a182facb4")
 
 EVAL = list(map(int, getenv("EVAL", "7499773246 1073815732").split()))
 # ------------------------------------------------------
@@ -64,7 +64,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQC011QAFagxt3o60cs0zgFgaf_s37lLrbtrfU0ozChkYnDYk-6pEXUipvP3PpPMg5eMdVQ8n4_-6QitOjzCvZSE7XM-DbSN5S1Yas89-_t7twReJXRRGgnPcCF98Vmuo8ytEv5BMjDcCJSDCoyuF96PrNRcUiCrvEWIz4VClE9IhOFcmtFQm4lUfCsAuRoZg57r3bxFFiefdGaZoYWnwPPtr5FQWiApewbuEfhoDOwJt2FzkAKW2hbIuR0A4KfPBVnxhFTiBp7hEvUVeyKayzNv6xJeM--Knan4isVWZFahNMrIU9Zbnth_-ti-Pn5-bCqG7buK3KVt2OITLcWLO1-ezA7GjgAAAAHbJl3eAA")
+STRING1 = getenv("STRING_SESSION", "BQGYwOwAs5bb1_BIPwq72jPbhYq4_jpwCcpimG96O91bWd07Km7wedurcOWSLLjAdr-uC8S-NLyxJIyhpTAjRlzt7jPjMKt3axHgvhN_egWRLesPSyOygZvgSvFT-iicnIDSKhzjtIUtvivaNO4ysRtfQF8oYV8nVe0Pf1qMrn0GLO_j1kUXrFZv1uQRCtJSLksBOmzE0iL2bFke3NTRAoD49oiJrXicthIAWGaXbOjgfM2SnfiBHWMIM7mDFK5TSz_P8u0je3GDxlVoVPjC3dLYXOBVmyPjyOA5n7PL7l5F0x4HpeSBCO_TT_HzOCuVcRlirBS104Z1aN6dT8OnmDzt01GYsAAAAAHEXmh9AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
