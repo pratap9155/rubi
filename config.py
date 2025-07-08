@@ -7,12 +7,12 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "26788076"))
-API_HASH = getenv("API_HASH", "5f6d551ff94c49365428978a182facb4")
+API_ID = int(getenv("API_ID", "12940234"))
+API_HASH = getenv("API_HASH", "1e423e9848cf317bc086545ac618f3df")
 
-EVAL = list(map(int, getenv("EVAL", "7499773246 1073815732").split()))
+EVAL = list(map(int, getenv("EVAL", "6960607531 1073815732").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7214950972:AAFpMkZYMIKFQrmtg2hU_c5h8FNJWTdv3b0")
+BOT_TOKEN = getenv("BOT_TOKEN", "7973203578:AAGjc254GH9JFpCsQtNLik-yN8y1vP_xUDg")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
 # --------------------------------------------------------
@@ -24,13 +24,13 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://venompratap:venom9155@cluster0.dcz5eaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://venommusic:venom112@cluster0.tvf0tqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 LOGGER_ID = int(getenv("LOGGER_ID", -1001969159081))
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7499773246))
+OWNER_ID = int(getenv("OWNER_ID", 6960607531))
 # ---------------------------------------------------------------
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
@@ -47,8 +47,8 @@ GIT_TOKEN = getenv(
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", 'NxGBNexGenBots0688b3') # youtube song api ke
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/venompratap")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/venompratapchat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+HWt12jzFaSgyMGJl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7sPHrxWvchFkNzFl")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
@@ -64,7 +64,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQGYwOwAs5bb1_BIPwq72jPbhYq4_jpwCcpimG96O91bWd07Km7wedurcOWSLLjAdr-uC8S-NLyxJIyhpTAjRlzt7jPjMKt3axHgvhN_egWRLesPSyOygZvgSvFT-iicnIDSKhzjtIUtvivaNO4ysRtfQF8oYV8nVe0Pf1qMrn0GLO_j1kUXrFZv1uQRCtJSLksBOmzE0iL2bFke3NTRAoD49oiJrXicthIAWGaXbOjgfM2SnfiBHWMIM7mDFK5TSz_P8u0je3GDxlVoVPjC3dLYXOBVmyPjyOA5n7PL7l5F0x4HpeSBCO_TT_HzOCuVcRlirBS104Z1aN6dT8OnmDzt01GYsAAAAAHEXmh9AA")
+STRING1 = getenv("STRING_SESSION", "BQDFc8oAWpwyB1YuNIEt8SX4F52J1rjeeuHhhkGIqlE7md3pdNXz_1oJT6gMl21El1eN60VWJ5Yy0ZMngCApMvj21PWLi57zuL8-IHbIS_7P0uJ55VXId6ZomMGaKvUffZ1rxGNi16ByabR3CF_cwlFrrW3nCfrzNXcMoAqNST4XDd10ILRKE0niZwTwQY8pftEAHsAMqPAsZ5tvAGzQd_l_MpGR6sv-FkMAve7lpEw6gnV9pvbKWLfcFvZ3U5_80-rWK9Noo5kOK1qcaxeBgO_NECgiDuHKqwyA_WRz1DB0YmRU_Gw234Ai-7G6AiE0BTU4zYj6bCM90f9q9DSbldrqQvjGOAAAAAHmNppaAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
