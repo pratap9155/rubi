@@ -41,7 +41,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/pratap9155/Allice && cd Allice
+   git clone https://github.com/pratap9155/Mahi && cd Mahi
    ```
 6. **Install Requirements**
    ```bash
