@@ -7,12 +7,12 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "12940234"))
-API_HASH = getenv("API_HASH", "1e423e9848cf317bc086545ac618f3df")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 EVAL = list(map(int, getenv("EVAL", "6960607531 1073815732").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7973203578:AAEpqtWizTdUaPveJ1zSrW1571jBWAAPwwo")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
 # --------------------------------------------------------
@@ -38,14 +38,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/pratap9155/Mahi",
+    "https://github.com/pratap9155/rubi",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # -----------------------------------------
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots0688b3') # youtube song api ke
+API_KEY = getenv("API_KEY",) # youtube song api ke
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+HWt12jzFaSgyMGJl")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7sPHrxWvchFkNzFl")
@@ -64,7 +64,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQDFc8oAWpwyB1YuNIEt8SX4F52J1rjeeuHhhkGIqlE7md3pdNXz_1oJT6gMl21El1eN60VWJ5Yy0ZMngCApMvj21PWLi57zuL8-IHbIS_7P0uJ55VXId6ZomMGaKvUffZ1rxGNi16ByabR3CF_cwlFrrW3nCfrzNXcMoAqNST4XDd10ILRKE0niZwTwQY8pftEAHsAMqPAsZ5tvAGzQd_l_MpGR6sv-FkMAve7lpEw6gnV9pvbKWLfcFvZ3U5_80-rWK9Noo5kOK1qcaxeBgO_NECgiDuHKqwyA_WRz1DB0YmRU_Gw234Ai-7G6AiE0BTU4zYj6bCM90f9q9DSbldrqQvjGOAAAAAHmNppaAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
