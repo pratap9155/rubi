@@ -78,7 +78,7 @@ def aq_markup(_, chat_id):
                 text="˹❍ᴡηєʀ ᴀʙσᴜᴛ˼ ", url=f"https://t.me/ninja_owner2"
             ),
             InlineKeyboardButton(
-                text="˹ᴄʜᴧᴛ ɢʀσᴜᴘ˼", url=f"https://t.me/+7sPHrxWvchFkNzFl"
+                text="˹ᴄʜᴧᴛ ɢʀσᴜᴘ˼", url=f"https://t.me/+ED68lT9jEQ1jNjNl"
             ),
         ],
       ]

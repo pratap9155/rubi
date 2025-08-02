@@ -48,7 +48,7 @@ API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY",) # youtube song api ke
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+HWt12jzFaSgyMGJl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7sPHrxWvchFkNzFl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+ED68lT9jEQ1jNjNl")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
